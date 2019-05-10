@@ -2,10 +2,10 @@ print("~ ~ ~ ~ ~ ~ ~ ~ Calculator~ ~ ~ ~ ~ ~ ~")
 Num1=int(input("Enter First Number "))
 Num2=int(input("Enter Second Number "))
 print("What action do you want to perform?")
-print("Press 1 or + for Addition ")
-print("Press 2 or - for Subtraction")
-print("Press 3 or / for Divition")
-print("Press 4 or * for Multiply")
+print("Press 1 for Addition ")
+print("Press 2 for Subtraction")
+print("Press 3 for Divition")
+print("Press 4 for Multiply")
 opt= input("Enter Choice :")
 if opt == "1" :
  result = Num1 + Num2
@@ -21,5 +21,8 @@ elif opt =="4":
  print("Result:",result)         
 else:
  print("Invalid!!")
+
+
+
 
 
